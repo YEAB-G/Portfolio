@@ -199,7 +199,11 @@ I enjoy turning complex data and messy text into intelligent tools that help use
 ## 📬 Contact
 
 📧 **Email:** [yeabsiragirma5@gmail.com](mailto:yeabsiragirma5@gmail.com)
+
+
 🔗 **LinkedIn:** linkedin.com/in/yeabsira-girma-hailegiorgis
+
+
 🐙 **GitHub:** github.com/YEAB-G
 
 
