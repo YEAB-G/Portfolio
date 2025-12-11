@@ -3,7 +3,7 @@
 
 ### **AI / ML Engineer | NLP & Generative AI | LLMs | Prompt Engineering | Data Engineering**
 
-Live Portfolio: *(add your Vercel link here once deployed)*
+Live Portfolio: **
 
 ---
 
