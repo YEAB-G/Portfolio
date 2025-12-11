@@ -117,7 +117,7 @@ const ContactPage = () => {
               <h2 className="text-sm font-semibold">Location</h2>
             </div>
             <p className="text-xs text-gray-400">
-              Ethiopia — available for remote roles worldwide.
+               Open to remote opportunities worldwide
             </p>
           </div>
 
