@@ -1,247 +1,208 @@
-# Portfolio V5
 
-Hello everyone\! 👋
+# 🌟 Yeabsira Girma — AI Portfolio
 
-Let me introduce myself, I'm **Eki Zulfar Rachman**. On this occasion, I'd like to share the portfolio website project that I've developed.
+### **AI / ML Engineer | NLP & Generative AI | LLMs | Prompt Engineering | Data Engineering**
 
-## 🚀 Live Demo
+Live Portfolio: *(add your Vercel link here once deployed)*
 
-**Website Link:** [https://www.eki.my.id/](https://www.eki.my.id/)
+---
 
-## 🛠️ Tech Stack
+## 📌 Overview
 
-This project is built using modern web technologies:
+This portfolio showcases my practical work in **AI Engineering, Machine Learning, NLP, LLM application development, Prompt Engineering, RAG systems, and Data Engineering**.
+It includes hands-on projects built using modern tools such as **Groq Llama 3 models, Streamlit, Python, and React**.
 
-  - **ReactJS** - Frontend framework
-  - **Tailwind CSS** - Utility-first CSS framework
-  - **Supabase** - Backend for portfolio data, certificates, and comment system
-  - **AOS** - Animate On Scroll library
-  - **Framer Motion** - Animation library
-  - **Lucide** - Icon library
-  - **Material UI** - React component library
-  - **SweetAlert2** - Beautiful alert dialogs
+The website features:
 
-## 📋 Prerequisites
+* A clean and responsive UI
+* A modern dark-purple gradient theme
+* Hero section describing my domain expertise
+* Sections for **About**, **Projects**, and **Contact**
+* Dedicated pages for each project
+* Animated transitions and smooth navigation
 
-Before running this project, ensure you have the following installed:
+---
 
-  - **Node.js** (version 14.x or higher)
-  - **npm** or **yarn** package manager
-
-## 🏃‍♂️ Getting Started
-
-Follow these steps to run the project locally:
-
-### 1\. Clone the Repository
+## 📁 Project Structure
 
 ```bash
-git clone https://github.com/EkiZR/Portofolio_V5.git
-cd Portofolio_V5
+yeabsira-ai-portfolio/
+│
+├── public/
+│   ├── profile.jpg               # Your profile photo
+│   ├── Yeabsira_Girma_CV.pdf     # Your CV
+│   ├── projects/                 # Project screenshots
+│   │   ├── rag-chatbot.png
+│   │   ├── ai-email-styler.png
+│   │   ├── prompt-lab.png
+│   │   ├── solar-week0.png
+│   │   └── mern-app.png
+│
+├── src/
+│   ├── App.jsx                   # Main app routing + transitions
+│   ├── main.jsx                  # Entry point
+│   ├── components/
+│   │   ├── Navbar.jsx            # Navigation bar with active highlights
+│   ├── Pages/
+│       ├── Home.jsx              # Hero + summary + animations
+│       ├── About.jsx             # About me + skills + education
+│       ├── Portofolio.jsx        # Project cards + details
+│       ├── Contact.jsx           # Contact info + clickable links
+│
+├── package.json
+├── vite.config.js
+└── README.md                     # (this file)
 ```
 
-### 2\. Install Dependencies
+---
+
+## 🚀 Features
+
+### **🧠 AI-Focused Portfolio**
+
+Highlights expertise in:
+
+* LLMs (Llama 3.x)
+* NLP
+* RAG systems
+* Prompt Engineering
+* Generative AI Applications
+* Data Engineering
+
+---
+
+### **🪄 Attractive UI / UX**
+
+* Clean dark-purple gradient theme
+* Professional animations (Framer Motion)
+* Smooth transitions between pages
+* Responsive layout for all screen sizes
+* Modern, animated hero banner
+
+---
+
+### **🛠️ Built With**
+
+* **React + Vite**
+* **Framer Motion** (page transitions & element animations)
+* **Tailwind-style classes** (utility-first styling)
+* **Lucide Icons**
+* **Vercel** (for deployment)
+
+---
+
+## 🧩 Key AI Projects Featured
+
+### **1. RAG PDF Chatbot**
+
+A Retrieval-Augmented Generation chatbot that answers questions from PDF documents using embeddings and Groq Llama models.
+**Tech:** RAG, LLMs, Python, Streamlit, Embeddings, Vector Search
+
+### **2. AI Email Styler**
+
+A generative AI tool that rewrites user messages into polished emails across tones.
+**Tech:** LLMs, Prompt Engineering, Streamlit
+
+### **3. Prompt Optimization Playground**
+
+An interactive benchmarking tool comparing multiple prompts for latency, output quality, and token usage.
+**Tech:** Groq API, Streamlit, Prompt Engineering
+
+### **4. Solar Energy Analytics (Week 0)**
+
+Exploration of solar production data using Python, uncovering trends and building visual analytics.
+**Tech:** Python, Data Cleaning, Pandas, EDA
+
+### **5. MERN Notes Application**
+
+A complete MERN stack app demonstrating authentication, APIs, and clean UI design.
+**Tech:** MongoDB, Express, React, Node.js
+
+---
+
+## 🧠 Skills Summary
+
+### **Core AI Skills**
+
+* LLM Application Development
+* NLP (preprocessing, classification, sentiment analysis)
+* Prompt Engineering & Optimization
+* RAG Pipelines & Embeddings
+* Generative AI
+
+### **Programming**
+
+* Python, JavaScript
+* SQL, Bash
+* MERN fundamentals
+
+### **Tools & Frameworks**
+
+* Streamlit
+* React
+* Groq API
+* Scikit-learn
+* Git/GitHub
+* Vercel
+
+### **Data Engineering**
+
+* ETL pipelines
+* Data Cleaning & Validation
+* EDA
+* Cloud Storage Setup
+
+---
+
+## 📦 Installation (Local Setup)
 
 ```bash
+git clone https://github.com/YEAB-G/yeabsira-ai-portfolio.git
+cd yeabsira-ai-portfolio
 npm install
-```
-
-If you encounter peer dependency issues, use:
-
-```bash
-npm install --legacy-peer-deps
-```
-
-### 3\. Run the Development Server
-
-```bash
 npm run dev
 ```
 
-### 4\. Open in Browser
+---
 
-Access the application through the link displayed in your terminal (usually `http://localhost:5173`).
+## 🌐 Deployment
 
-## 🏗️ Building for Production
+This portfolio is deployed on **Vercel**.
+Steps to deploy:
 
-To create a production-ready build:
+1. Push repo to GitHub
+2. Go to vercel.com and import the repository
+3. Build settings:
 
-1.  Run the build command:
+   * **Framework:** Vite
+   * **Build Command:** `npm run build`
+   * **Install Command:** `npm install`
+   * **Output Directory:** `dist`
+4. Deploy — Vercel automatically generates a live URL
 
-    ```bash
-    npm run build
-    ```
+---
 
-2.  The build files will be saved in the `dist` folder. Upload this folder to your hosting server.
+## 👤 About Me
 
-## ⚙️ Configuration (Supabase)
+Hi! I’m **Yeabsira Girma**, an AI/ML Engineer passionate about building practical AI solutions using:
 
-All backend data for this project (portfolio, certificates, and comments) is managed by Supabase.
+* NLP
+* LLM Applications
+* RAG Systems
+* Data Engineering
+* Generative AI
 
-### 1\. Create Supabase Project
+I enjoy turning complex data and messy text into intelligent tools that help users solve real-world problems.
 
-  - Go to [Supabase](https://supabase.com/) and create a new project.
-  - Keep your **Project URL** and **anon public key** handy. You can find them in **Settings \> API**.
+---
 
-### 2\. Setup Database Tables & Policies
+## 📬 Contact
 
-Run the following all-in-one SQL script in your Supabase **SQL Editor**. This will set up all necessary tables, security policies, storage, and also insert one example for each table.
+📧 **Email:** [yeabsiragirma5@gmail.com](mailto:yeabsiragirma5@gmail.com)
+🔗 **LinkedIn:** linkedin.com/in/yeabsira-girma-hailegiorgis
+🐙 **GitHub:** github.com/YEAB-G
 
-```sql
--- ---- TABLE CREATION ----
 
--- Creates the 'projects' table for portfolio items
-CREATE TABLE public.projects (
-  id bigint GENERATED BY DEFAULT AS IDENTITY PRIMARY KEY,
-  created_at timestamp with time zone DEFAULT now() NOT NULL,
-  "Title" text,
-  "Description" text,
-  "Img" text,
-  "Link" text,
-  "Github" text,
-  "Features" jsonb,
-  "TechStack" jsonb
-);
+---
 
--- Creates the 'certificates' table
-CREATE TABLE public.certificates (
-  id bigint GENERATED BY DEFAULT AS IDENTITY PRIMARY KEY,
-  created_at timestamp with time zone DEFAULT now() NOT NULL,
-  "Img" text
-);
 
--- Creates the 'portfolio_comments' table for the comment system
-CREATE TABLE public.portfolio_comments (
-  id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
-  content TEXT NOT NULL,
-  user_name VARCHAR(255) NOT NULL,
-  profile_image TEXT,
-  is_pinned BOOLEAN DEFAULT FALSE,
-  created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
-);
-
--- ---- ROW LEVEL SECURITY (RLS) SETUP ----
-
--- Enable RLS for all tables
-ALTER TABLE public.projects ENABLE ROW LEVEL SECURITY;
-ALTER TABLE public.certificates ENABLE ROW LEVEL SECURITY;
-ALTER TABLE public.portfolio_comments ENABLE ROW LEVEL SECURITY;
-
--- ---- POLICY CREATION ----
-
--- Policy for 'projects': Allow public read access
-CREATE POLICY "Public Read Access Policy for Projects"
-ON public.projects FOR SELECT TO public USING (true);
-
--- Policy for 'certificates': Allow public read access
-CREATE POLICY "Public Read Access Policy for Certificates"
-ON public.certificates FOR SELECT TO public USING (true);
-
--- Policies for 'portfolio_comments': Allow read for everyone, and insert for everyone (but not pinned)
-CREATE POLICY "Allow public read on portfolio_comments"
-ON public.portfolio_comments FOR SELECT TO public USING (true);
-
-CREATE POLICY "Allow public insert on portfolio_comments"
-ON public.portfolio_comments FOR INSERT TO public WITH CHECK (is_pinned = false);
-
--- ---- STORAGE SETUP FOR COMMENT PROFILE IMAGES ----
-
--- Create a public bucket for profile images
-INSERT INTO storage.buckets (id, name, public)
-VALUES ('profile-images', 'profile-images', true)
-ON CONFLICT (id) DO NOTHING; -- Avoid errors if the bucket already exists
-
--- Policies for 'profile-images' bucket
-CREATE POLICY "Allow public to upload profile images"
-ON storage.objects FOR INSERT TO public WITH CHECK (bucket_id = 'profile-images');
-
-CREATE POLICY "Allow public to read profile images"
-ON storage.objects FOR SELECT TO public USING (bucket_id = 'profile-images');
-
--- ---- EXAMPLE DATA INSERTION ----
-
--- Insert one example project
-INSERT INTO public.projects ("Title", "Description", "Img", "Link", "Github", "Features", "TechStack") 
-VALUES (
-    'Example Project Title', 
-    'A simple description for this example project, explaining its main purpose and goals.', 
-    'REPLACE_WITH_YOUR_PROJECT_IMAGE_URL.png', 
-    'REPLACE_WITH_YOUR_LIVE_DEMO_URL.com', 
-    'REPLACE_WITH_YOUR_GITHUB_REPO_URL.com', 
-    '["Main Feature A", "Core Function B", "Key Ability C"]', 
-    '["React", "Supabase", "Tailwind CSS"]'
-);
-
--- Insert one example certificate
-INSERT INTO public.certificates ("Img") 
-VALUES ('REPLACE_WITH_YOUR_CERTIFICATE_IMAGE_URL.png');
-
--- Insert one example comment
-INSERT INTO public.portfolio_comments (content, user_name) 
-VALUES ('Created By Eki Zulfar Rachman', 'ekizr');
-
-```
-
-### 3\. Enable Realtime (for Comment System)
-
-  - Go to **Table Editor > portofolio_comments**.
-  - Enable Realtime for the `portfolio_comments`.
-
-## 🔧 Environment Variables Setup
-
-Create a file named `.env` in the root of your project and add your Supabase credentials.
-
-```env
-# Supabase Configuration
-VITE_SUPABASE_URL=your-supabase-url
-VITE_SUPABASE_ANON_KEY=your-supabase-anon-key
-```
-
-**Important:**
-
-  - All environment variables must be prefixed with `VITE_` for Vite to access them.
-  - Restart your development server after creating or modifying the `.env` file.
-  - **Never** commit your `.env` file to version control. Ensure it's listed in your `.gitignore` file.
-
-### Configuration File (`supabase.js`)
-
-Ensure your Supabase client configuration file (e.g., `src/supabase.js`) uses these environment variables.
-
-```javascript
-import { createClient } from '@supabase/supabase-js'
-
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL
-const supabaseKey = import.meta.env.VITE_SUPABASE_ANON_KEY
-
-if (!supabaseUrl || !supabaseKey) {
-  throw new Error("Supabase URL and Anon Key are required. Check your .env file.")
-}
-
-export const supabase = createClient(supabaseUrl, supabaseKey)
-```
-
-## 🚨 Troubleshooting
-
-If you encounter issues while running the project:
-
-  - Ensure Node.js is correctly installed.
-  - Verify you're in the correct project directory.
-  - Check that all dependencies are installed without errors.
-  - Make sure your Supabase configuration in the `.env` file is correct and the server has been restarted.
-  - Clear your browser cache and try again.
-
-## 📝 Usage & Credits
-
-We would appreciate it if you decide to use this project. Please include proper credit when using it. Thank you\! 🙏
-
-## 📞 Contact
-
-If you have any questions or need help with the setup, feel free to reach out\!
-
-**Eki Zulfar Rachman**
-
-  - Website: [https://www.eki.my.id/](https://www.eki.my.id/)
-  - GitHub: [EkiZR](https://github.com/EkiZR)
-
------
-
-⭐ If this project helped you, please consider giving it a star on GitHub\!
